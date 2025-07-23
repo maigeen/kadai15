@@ -9,7 +9,7 @@ $data = [
     'score' => $msg_score
 ];
 // 連想配列をJSON形式の文字列に変換して出力
-echo json_encode(["messages" => [$data]]);
+echo json_encode($data);
 exit;
 
 // 参考ページ
