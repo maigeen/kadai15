@@ -7,9 +7,9 @@ $(function() {
 
         $.ajax({
             //送信方法
-            type: "POST",
+            type: 'POST',
             //リクエスト先のURLを設定
-            url: "api.php",
+            url: 'api.php',
             //送信データの設定
             data:{
                 no: input_no,
